@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1dot15d4_1_1packet__sink__scapy" kind="class"><name>gr::dot15d4::packet_sink_scapy</name>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy_1a25c7c59f948d811a2e8e0e87b2864903" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy_1a6f54d632619c25da569fc6d72e5b3d57" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl" kind="class"><name>gr::dot15d4::packet_sink_scapy_impl</name>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a6f57e3a9d371e28008082e872f37eb5b" kind="enum"><name>@0</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a6f57e3a9d371e28008082e872f37eb5ba8f1ec6cd896477fd27d6f4d27d214116" kind="enumvalue"><name>STATE_SYNC_SEARCH</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a6f57e3a9d371e28008082e872f37eb5ba2d2b408a618cb196e7a04a7ca60c17db" kind="enumvalue"><name>STATE_HAVE_SYNC</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a6f57e3a9d371e28008082e872f37eb5bac50a50db9b50fbe2950cb49958bf0aa5" kind="enumvalue"><name>STATE_HAVE_HEADER</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1aebe178355d75afdcb8fc64955cf99773" kind="variable"><name>d_state</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1ae4ea9a14f8d469dfe4d4a90e78457180" kind="variable"><name>d_sync_vector</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1afd3c0fa6a2fdb4727eac0f6eea086d8a" kind="variable"><name>d_threshold</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a3c9f82ee3943eb401e00a353759ab0c1" kind="variable"><name>d_shift_reg</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a53b93a4e5ce74f3e850bd5b1d199db35" kind="variable"><name>d_preamble_cnt</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a25ca33ac4abf4ae9c8c13b62ee9bd8d7" kind="variable"><name>d_chip_cnt</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a2070e70ea357aa8135e2f72fb5368c0a" kind="variable"><name>d_header</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a3d69831349327b8b2edad4cca920599b" kind="variable"><name>d_headerbitlen_cnt</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a4ba0719a75b094f35350a037bbd08de6" kind="variable"><name>d_packet</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a8a44424f1a6e42d7239f8cb680f8b863" kind="variable"><name>d_packet_byte</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1afc07e2821f6222c89b083e2b5f898dd8" kind="variable"><name>d_packet_byte_index</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1ac1778933cfa8e4b60b6e9ecd28780676" kind="variable"><name>d_packetlen</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1af057cdc6c4eca98331f61396e7789306" kind="variable"><name>d_packetlen_cnt</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1ab1c9ddcec08a616105c4228af8bf56b0" kind="variable"><name>d_payload_cnt</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a76e6a1f5c0877059fa8830b5ad37bb8c" kind="variable"><name>d_lqi</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1ac32bd918d206222f259c1e92216c9fd5" kind="variable"><name>d_lqi_sample_count</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a1f427a79cc8b4302594330c115fcfc2f" kind="variable"><name>buf</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a313b02a1305e3c44506586e0a07f9ff2" kind="function"><name>packet_sink_scapy_impl</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a5ca1820e944a174db9b890a3d86f8ba5" kind="function"><name>~packet_sink_scapy_impl</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1aa56778846580446c68dc31bfbc74ea51" kind="function"><name>enter_search</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1ad153bf6cf794e01083a57957bd51149c" kind="function"><name>enter_have_sync</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1af95aebac9ad952f0e1544c9d35b588e7" kind="function"><name>enter_have_header</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1aed1ee61e264dda5f082c0a7f5a4db839" kind="function"><name>decode_chips</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1af1ff2ba574dc58f4609b32818d412390" kind="function"><name>slice</name></member>
+    <member refid="classgr_1_1dot15d4_1_1packet__sink__scapy__impl_1a71481e7049394286e92ee7b466c06e40" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1dot15d4_1_1preamble__prefixer__scapy" kind="class"><name>gr::dot15d4::preamble_prefixer_scapy</name>
+    <member refid="classgr_1_1dot15d4_1_1preamble__prefixer__scapy_1aa1d254a0b4391ecc970403226c42f6be" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1dot15d4_1_1preamble__prefixer__scapy_1ad0e04b717ceda848293f9e0d48deefb1" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1dot15d4_1_1preamble__prefixer__scapy__impl" kind="class"><name>gr::dot15d4::preamble_prefixer_scapy_impl</name>
+    <member refid="classgr_1_1dot15d4_1_1preamble__prefixer__scapy__impl_1a1506d52e2c154874a50694b334ce2cbf" kind="variable"><name>buf</name></member>
+    <member refid="classgr_1_1dot15d4_1_1preamble__prefixer__scapy__impl_1a919cc66f2853b9af8f9ac770657cb68c" kind="function"><name>preamble_prefixer_scapy_impl</name></member>
+    <member refid="classgr_1_1dot15d4_1_1preamble__prefixer__scapy__impl_1abdcc687586dbebe6366f4e654a1e8eee" kind="function"><name>~preamble_prefixer_scapy_impl</name></member>
+    <member refid="classgr_1_1dot15d4_1_1preamble__prefixer__scapy__impl_1a35ee52601797abcaec32e262ba97ead1" kind="function"><name>make_frame</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1dot15d4" kind="namespace"><name>gr::dot15d4</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1af1c8e1dbfe415b160ce4709b751c0b30" kind="define"><name>DOT15D4_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="packet__sink__scapy_8h" kind="file"><name>packet_sink_scapy.h</name>
+  </compound>
+  <compound refid="packet__sink__scapy__impl_8h" kind="file"><name>packet_sink_scapy_impl.h</name>
+    <member refid="packet__sink__scapy__impl_8h_1a57b9808903075bbac427e4fe16afb87d" kind="variable"><name>CHIP_MAPPING</name></member>
+    <member refid="packet__sink__scapy__impl_8h_1a76d285cf13273c0ba0007399122a32fe" kind="variable"><name>MAX_PKT_LEN</name></member>
+    <member refid="packet__sink__scapy__impl_8h_1aa48772d4f76897f2b39392c115fd2a4a" kind="variable"><name>MAX_LQI_SAMPLES</name></member>
+  </compound>
+  <compound refid="preamble__prefixer__scapy_8h" kind="file"><name>preamble_prefixer_scapy.h</name>
+  </compound>
+  <compound refid="preamble__prefixer__scapy__impl_8h" kind="file"><name>preamble_prefixer_scapy_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d1d68b1da9c0d02f56c165d19ac4e1fd" kind="dir"><name>dot15d4</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/scapy-radio/gnuradio/gr-Zwave/lib/qa_Zwave.cc
+qa_Zwave.h
+/root/scapy-radio/gnuradio/gr-Zwave/lib/qa_Zwave.h
+
+/root/scapy-radio/gnuradio/gr-Zwave/lib/qa_Zwave.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/root/scapy-radio/gnuradio/gr-Zwave/lib/test_Zwave.cc
+config.h
+/root/scapy-radio/gnuradio/gr-Zwave/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_Zwave.h
+/root/scapy-radio/gnuradio/gr-Zwave/lib/qa_Zwave.h
+iostream
+-
+

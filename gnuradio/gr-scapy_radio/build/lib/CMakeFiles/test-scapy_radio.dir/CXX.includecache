@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/scapy-radio/gnuradio/gr-scapy_radio/lib/qa_scapy_radio.cc
+qa_scapy_radio.h
+/root/scapy-radio/gnuradio/gr-scapy_radio/lib/qa_scapy_radio.h
+
+/root/scapy-radio/gnuradio/gr-scapy_radio/lib/qa_scapy_radio.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/root/scapy-radio/gnuradio/gr-scapy_radio/lib/test_scapy_radio.cc
+config.h
+/root/scapy-radio/gnuradio/gr-scapy_radio/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_scapy_radio.h
+/root/scapy-radio/gnuradio/gr-scapy_radio/lib/qa_scapy_radio.h
+iostream
+-
+

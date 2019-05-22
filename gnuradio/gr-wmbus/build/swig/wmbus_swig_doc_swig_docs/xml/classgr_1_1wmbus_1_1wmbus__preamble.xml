@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1wmbus_1_1wmbus__preamble" kind="class" language="C++" prot="public">
+    <compoundname>gr::wmbus::wmbus_preamble</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="wmbus__preamble_8h" local="no">wmbus_preamble.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1wmbus_1_1wmbus__preamble_1ad8d67b57efa2a05763220a2adebdf54e" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1wmbus_1_1wmbus__preamble" kindref="compound">wmbus_preamble</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;wmbus_preamble&gt; gr::wmbus::wmbus_preamble::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/include/wmbus/wmbus_preamble.h" line="39" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/include/wmbus/wmbus_preamble.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__preamble_1ac2f5b1623b39eb86d9ca59558f0ff13d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1wmbus_1_1wmbus__preamble_1ad8d67b57efa2a05763220a2adebdf54e" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::wmbus::wmbus_preamble::make</definition>
+        <argsstring>(int usleep, bool debug)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>usleep</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>debug</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1wmbus_1_1wmbus__preamble" kindref="compound">wmbus::wmbus_preamble</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1wmbus_1_1wmbus__preamble" kindref="compound">wmbus::wmbus_preamble</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1wmbus_1_1wmbus__preamble_1ac2f5b1623b39eb86d9ca59558f0ff13d" kindref="member">wmbus::wmbus_preamble::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/include/wmbus/wmbus_preamble.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>gr::wmbus::wmbus_preamble</label>
+        <link refid="classgr_1_1wmbus_1_1wmbus__preamble"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>gr::wmbus::wmbus_preamble</label>
+        <link refid="classgr_1_1wmbus_1_1wmbus__preamble"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/root/scapy-radio/gnuradio/gr-wmbus/include/wmbus/wmbus_preamble.h" line="37" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/include/wmbus/wmbus_preamble.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble_1ac2f5b1623b39eb86d9ca59558f0ff13d" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble</scope><name>make</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble_1ad8d67b57efa2a05763220a2adebdf54e" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

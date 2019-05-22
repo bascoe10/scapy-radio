@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1Zwave_1_1preamble" kind="class" language="C++" prot="public">
+    <compoundname>gr::Zwave::preamble</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="preamble_8h" local="no">preamble.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1Zwave_1_1preamble_1a75894f50c311f3fdb2e2c14a382b9175" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1Zwave_1_1preamble" kindref="compound">preamble</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;preamble&gt; gr::Zwave::preamble::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-Zwave/include/Zwave/preamble.h" line="40" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-Zwave/include/Zwave/preamble.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1Zwave_1_1preamble_1a9741ff81702ed04a44c9d4a855086a43" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1Zwave_1_1preamble_1a75894f50c311f3fdb2e2c14a382b9175" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::Zwave::preamble::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1Zwave_1_1preamble" kindref="compound">Zwave::preamble</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1Zwave_1_1preamble" kindref="compound">Zwave::preamble</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1Zwave_1_1preamble_1a9741ff81702ed04a44c9d4a855086a43" kindref="member">Zwave::preamble::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-Zwave/include/Zwave/preamble.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>block</label>
+      </node>
+      <node id="8">
+        <label>gr::Zwave::preamble</label>
+        <link refid="classgr_1_1Zwave_1_1preamble"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>block</label>
+      </node>
+      <node id="10">
+        <label>gr::Zwave::preamble</label>
+        <link refid="classgr_1_1Zwave_1_1preamble"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/scapy-radio/gnuradio/gr-Zwave/include/Zwave/preamble.h" line="38" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-Zwave/include/Zwave/preamble.h" bodystart="37" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Zwave_1_1preamble_1a9741ff81702ed04a44c9d4a855086a43" prot="public" virt="non-virtual"><scope>gr::Zwave::preamble</scope><name>make</name></member>
+      <member refid="classgr_1_1Zwave_1_1preamble_1a75894f50c311f3fdb2e2c14a382b9175" prot="public" virt="non-virtual"><scope>gr::Zwave::preamble</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="packet__sink__scapy_8h" local="no">packet_sink_scapy.h</includedby>
+    <includedby refid="preamble__prefixer__scapy_8h" local="no">preamble_prefixer_scapy.h</includedby>
+    <incdepgraph>
+      <node id="0">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>packet_sink_scapy.h</label>
+        <link refid="packet__sink__scapy_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>preamble_prefixer_scapy_impl.h</label>
+        <link refid="preamble__prefixer__scapy__impl_8h"/>
+      </node>
+      <node id="5">
+        <label>preamble_prefixer_scapy.h</label>
+        <link refid="preamble__prefixer__scapy_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>packet_sink_scapy_impl.h</label>
+        <link refid="packet__sink__scapy__impl_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1af1c8e1dbfe415b160ce4709b751c0b30" prot="public" static="no">
+        <name>DOT15D4_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-dot15d4/include/dot15d4/api.h" line="30" column="12" bodyfile="/root/scapy-radio/gnuradio/gr-dot15d4/include/dot15d4/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/scapy-radio/gnuradio/gr-dot15d4/include/dot15d4/api.h"/>
+  </compounddef>
+</doxygen>

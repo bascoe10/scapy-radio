@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1bt4le_1_1packet__sink" kind="class"><name>gr::bt4le::packet_sink</name>
+    <member refid="classgr_1_1bt4le_1_1packet__sink_1aca98c0dfedea7f0251132b60f76c4b13" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1bt4le_1_1packet__sink_1af299c5796cbd7e07d4693c540bb4ac46" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1bt4le_1_1preamble__prefixer" kind="class"><name>gr::bt4le::preamble_prefixer</name>
+    <member refid="classgr_1_1bt4le_1_1preamble__prefixer_1af9b4831f3164c8b866144ae9668ada95" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1bt4le_1_1preamble__prefixer_1a691456cdb2846f087be3d901473d8e27" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1bt4le_1_1whitening" kind="class"><name>gr::bt4le::whitening</name>
+    <member refid="classgr_1_1bt4le_1_1whitening_1af66ef0c4e7b5862613737041d17e47b0" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1bt4le_1_1whitening_1a84487f6f9311c1a07c6b812243e4ffe9" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1bt4le" kind="namespace"><name>gr::bt4le</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a563f2908ee78cf2c1e8b49dee45d838b" kind="define"><name>BT4LE_API</name></member>
+  </compound>
+  <compound refid="packet__sink_8h" kind="file"><name>packet_sink.h</name>
+  </compound>
+  <compound refid="preamble__prefixer_8h" kind="file"><name>preamble_prefixer.h</name>
+  </compound>
+  <compound refid="whitening_8h" kind="file"><name>whitening.h</name>
+  </compound>
+  <compound refid="dir_3fcd8fd8e5e80c4c3717026c32730976" kind="dir"><name>/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/root/scapy-radio/gnuradio/gr-bt4le/include</name>
+  </compound>
+</doxygenindex>

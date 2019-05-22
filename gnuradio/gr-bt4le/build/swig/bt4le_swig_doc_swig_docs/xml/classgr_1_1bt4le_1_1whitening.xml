@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1bt4le_1_1whitening" kind="class" language="C++" prot="public">
+    <compoundname>gr::bt4le::whitening</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="whitening_8h" local="no">whitening.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1bt4le_1_1whitening_1af66ef0c4e7b5862613737041d17e47b0" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1bt4le_1_1whitening" kindref="compound">whitening</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;whitening&gt; gr::bt4le::whitening::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/whitening.h" line="40" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/whitening.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1bt4le_1_1whitening_1a84487f6f9311c1a07c6b812243e4ffe9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1bt4le_1_1whitening_1af66ef0c4e7b5862613737041d17e47b0" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::bt4le::whitening::make</definition>
+        <argsstring>(int chan_nbr=0)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>chan_nbr</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1bt4le_1_1whitening" kindref="compound">bt4le::whitening</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1bt4le_1_1whitening" kindref="compound">bt4le::whitening</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1bt4le_1_1whitening_1a84487f6f9311c1a07c6b812243e4ffe9" kindref="member">bt4le::whitening::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/whitening.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>gr::bt4le::whitening</label>
+        <link refid="classgr_1_1bt4le_1_1whitening"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>gr::bt4le::whitening</label>
+        <link refid="classgr_1_1bt4le_1_1whitening"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/whitening.h" line="38" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/whitening.h" bodystart="37" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1bt4le_1_1whitening_1a84487f6f9311c1a07c6b812243e4ffe9" prot="public" virt="non-virtual"><scope>gr::bt4le::whitening</scope><name>make</name></member>
+      <member refid="classgr_1_1bt4le_1_1whitening_1af66ef0c4e7b5862613737041d17e47b0" prot="public" virt="non-virtual"><scope>gr::bt4le::whitening</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1bt4le_1_1preamble__prefixer" kind="class" language="C++" prot="public">
+    <compoundname>gr::bt4le::preamble_prefixer</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="preamble__prefixer_8h" local="no">preamble_prefixer.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1bt4le_1_1preamble__prefixer_1af9b4831f3164c8b866144ae9668ada95" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1bt4le_1_1preamble__prefixer" kindref="compound">preamble_prefixer</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;preamble_prefixer&gt; gr::bt4le::preamble_prefixer::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/preamble_prefixer.h" line="35" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/preamble_prefixer.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1bt4le_1_1preamble__prefixer_1a691456cdb2846f087be3d901473d8e27" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1bt4le_1_1preamble__prefixer_1af9b4831f3164c8b866144ae9668ada95" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::bt4le::preamble_prefixer::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/preamble_prefixer.h" line="36" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>gr::bt4le::preamble_prefixer</label>
+        <link refid="classgr_1_1bt4le_1_1preamble__prefixer"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>gr::bt4le::preamble_prefixer</label>
+        <link refid="classgr_1_1bt4le_1_1preamble__prefixer"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/preamble_prefixer.h" line="33" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/preamble_prefixer.h" bodystart="32" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classgr_1_1bt4le_1_1preamble__prefixer_1a691456cdb2846f087be3d901473d8e27" prot="public" virt="non-virtual"><scope>gr::bt4le::preamble_prefixer</scope><name>make</name></member>
+      <member refid="classgr_1_1bt4le_1_1preamble__prefixer_1af9b4831f3164c8b866144ae9668ada95" prot="public" virt="non-virtual"><scope>gr::bt4le::preamble_prefixer</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

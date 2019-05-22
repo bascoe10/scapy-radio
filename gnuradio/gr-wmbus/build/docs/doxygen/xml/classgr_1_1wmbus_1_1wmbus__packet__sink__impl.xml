@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::wmbus::wmbus_packet_sink_impl</compoundname>
+    <basecompoundref refid="classgr_1_1wmbus_1_1wmbus__packet__sink" prot="public" virt="non-virtual">gr::wmbus::wmbus_packet_sink</basecompoundref>
+    <includes refid="wmbus__packet__sink__impl_8h" local="no">wmbus_packet_sink_impl.h</includes>
+    <innerclass refid="structgr_1_1wmbus_1_1wmbus__packet__sink__impl_1_1s__frame__struct" prot="private">gr::wmbus::wmbus_packet_sink_impl::s_frame_struct</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556de" prot="private" static="no">
+        <name>@0</name>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556deadf22c6628d886e7f4911d2968426ce15" prot="private">
+          <name>PREAMBLE_SEARCH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556dea752791b23585ed526932b0327bff3087" prot="private">
+          <name>SYNC_WORD_SEARCH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556deaffbe5b14ce4d25597a6c562cf2b03564" prot="private">
+          <name>GET_LEN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556deaedb8a4cc40bb761fe9f257f709f5b25e" prot="private">
+          <name>READ_DATA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="34" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="enum" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157" prot="private" static="no">
+        <name>@1</name>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a9b5cfa5521de29eadd1872143f6ae6bd" prot="private">
+          <name>S</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a8bafbccee10ef3b79bbf0b81d3b6ec8d" prot="private">
+          <name>T</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a3751d1e1baae52ceeb6c780e52387a05" prot="private">
+          <name>C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a3de3bddd6be5364609555664fdca762e" prot="private">
+          <name>C2C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157aa1026a0cc60bd34072ae3218dd30c8d1" prot="private">
+          <name>CorT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="35" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="enum" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a17f6edba5252069bb1b48491dd7842dd" prot="private" static="no">
+        <name>@2</name>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a17f6edba5252069bb1b48491dd7842dda5e4905b48f30cb754bc5f787a656fc8f" prot="private">
+          <name>SHORT_HEADER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a17f6edba5252069bb1b48491dd7842ddaf8c3ecc06fe49ea1e79bfccf5125176d" prot="private">
+          <name>LONG_HEADER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="36" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="enum" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5345f670e87c16d8764b046c2e4bf104" prot="private" static="no">
+        <name>@3</name>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5345f670e87c16d8764b046c2e4bf104a8ace80f9e8e190bea0f39a47a45fb02c" prot="private">
+          <name>TYPE_A</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5345f670e87c16d8764b046c2e4bf104aaa06311a2f4c0bd09fd2560e16a58500" prot="private">
+          <name>TYPE_B</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="37" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1af3638572a80ad3f0eaf8a3de40d5e26a" prot="private" static="no" mutable="no">
+        <type>enum gr::wmbus::wmbus_packet_sink_impl::@0</type>
+        <definition>enum gr::wmbus::wmbus_packet_sink_impl::@0  gr::wmbus::wmbus_packet_sink_impl::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a699ecae2f5930a7588a1c19b4a3dcb80" prot="private" static="no" mutable="no">
+        <type>enum gr::wmbus::wmbus_packet_sink_impl::@1</type>
+        <definition>enum gr::wmbus::wmbus_packet_sink_impl::@1  gr::wmbus::wmbus_packet_sink_impl::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a40e8daa5f9257275becbbf3466b26b26" prot="private" static="no" mutable="no">
+        <type>enum gr::wmbus::wmbus_packet_sink_impl::@2</type>
+        <definition>enum gr::wmbus::wmbus_packet_sink_impl::@2  gr::wmbus::wmbus_packet_sink_impl::header_type</definition>
+        <argsstring></argsstring>
+        <name>header_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a9c21155187aaddef1747775f31960db7" prot="private" static="no" mutable="no">
+        <type>enum gr::wmbus::wmbus_packet_sink_impl::@3</type>
+        <definition>enum gr::wmbus::wmbus_packet_sink_impl::@3  gr::wmbus::wmbus_packet_sink_impl::frame_type</definition>
+        <argsstring></argsstring>
+        <name>frame_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a4f7a88aeb044cc1c9020b484a7a692ae" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::wmbus::wmbus_packet_sink_impl::param_mode</definition>
+        <argsstring></argsstring>
+        <name>param_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="38" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a1be43b4530014de1c3c18212e9037a25" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::wmbus::wmbus_packet_sink_impl::frame_shift_reg</definition>
+        <argsstring></argsstring>
+        <name>frame_shift_reg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="39" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a7ddcc22986c8059d39fa688ab30cae63" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::wmbus::wmbus_packet_sink_impl::bit_count</definition>
+        <argsstring></argsstring>
+        <name>bit_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="40" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a6656401bc02ab533e853fbc5f8a967c8" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::wmbus::wmbus_packet_sink_impl::frame_len</definition>
+        <argsstring></argsstring>
+        <name>frame_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="41" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aba33cc03ba00319d9512df8c6c15ffe8" prot="private" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short gr::wmbus::wmbus_packet_sink_impl::preamble_len</definition>
+        <argsstring></argsstring>
+        <name>preamble_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="42" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a1916ed2445f1e05b2cb4de7be8d0e9aa" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::wmbus::wmbus_packet_sink_impl::GRH[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>GRH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="43" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a08f49ff8839746cf6aef0bc9b8129de8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::wmbus::wmbus_packet_sink_impl::dbg</definition>
+        <argsstring></argsstring>
+        <name>dbg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="44" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a985e4e51530e7fb3f85c458925d67d6a" prot="private" static="no" mutable="no">
+        <type>struct s_frame_struct</type>
+        <definition>struct s_frame_struct gr::wmbus::wmbus_packet_sink_impl::frame_struct</definition>
+        <argsstring></argsstring>
+        <name>frame_struct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="44" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1ad73aa51e22d52bca24479bf0875d8751" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::wmbus::wmbus_packet_sink_impl::wmbus_packet_sink_impl</definition>
+        <argsstring>(int param_mode, bool debug)</argsstring>
+        <name>wmbus_packet_sink_impl</name>
+        <param>
+          <type>int</type>
+          <declname>param_mode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>debug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1ac74fed7c84d253b5566b4209f59689e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::wmbus::wmbus_packet_sink_impl::~wmbus_packet_sink_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~wmbus_packet_sink_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a80e19bff7d2f71ad4262f7a9b7e5314f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::wmbus::wmbus_packet_sink_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a73de1af288519a373f957939258aa1b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::wmbus::wmbus_packet_sink_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a6f16568d4138b682a4e98506f47f3c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::wmbus::wmbus_packet_sink_impl::decode_3to6</definition>
+        <argsstring>(int input)</argsstring>
+        <name>decode_3to6</name>
+        <param>
+          <type>int</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5a0ee140cb507333b0a1ad5af20cd9ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::wmbus::wmbus_packet_sink_impl::decode_manchester</definition>
+        <argsstring>(int input)</argsstring>
+        <name>decode_manchester</name>
+        <param>
+          <type>int</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a251d83737e417912d4359d91eec4e34a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::wmbus::wmbus_packet_sink_impl::calc_num_crc</definition>
+        <argsstring>(int len)</argsstring>
+        <name>calc_num_crc</name>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a3545fb2edba0c3af38523e30145b9c7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::wmbus::wmbus_packet_sink_impl::reset</definition>
+        <argsstring>(void)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aefbb7ec8b650c60c8a1a58605772b783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::wmbus::wmbus_packet_sink_impl::craft_GR_Header</definition>
+        <argsstring>(void)</argsstring>
+        <name>craft_GR_Header</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="68" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>gr::wmbus::wmbus_packet_sink_impl</label>
+        <link refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>block</label>
+      </node>
+      <node id="12">
+        <label>gr::wmbus::wmbus_packet_sink</label>
+        <link refid="classgr_1_1wmbus_1_1wmbus__packet__sink"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>gr::wmbus::wmbus_packet_sink_impl</label>
+        <link refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>block</label>
+      </node>
+      <node id="15">
+        <label>gr::wmbus::wmbus_packet_sink</label>
+        <link refid="classgr_1_1wmbus_1_1wmbus__packet__sink"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="32" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="31" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a7ddcc22986c8059d39fa688ab30cae63" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>bit_count</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a3751d1e1baae52ceeb6c780e52387a05" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>C</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a3de3bddd6be5364609555664fdca762e" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>C2C</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a251d83737e417912d4359d91eec4e34a" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>calc_num_crc</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157aa1026a0cc60bd34072ae3218dd30c8d1" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>CorT</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aefbb7ec8b650c60c8a1a58605772b783" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>craft_GR_Header</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a08f49ff8839746cf6aef0bc9b8129de8" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>dbg</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a6f16568d4138b682a4e98506f47f3c0a" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>decode_3to6</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5a0ee140cb507333b0a1ad5af20cd9ba" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>decode_manchester</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a80e19bff7d2f71ad4262f7a9b7e5314f" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a6656401bc02ab533e853fbc5f8a967c8" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>frame_len</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a1be43b4530014de1c3c18212e9037a25" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>frame_shift_reg</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a985e4e51530e7fb3f85c458925d67d6a" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>frame_struct</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a9c21155187aaddef1747775f31960db7" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>frame_type</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a73de1af288519a373f957939258aa1b7" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556deaffbe5b14ce4d25597a6c562cf2b03564" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>GET_LEN</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a1916ed2445f1e05b2cb4de7be8d0e9aa" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>GRH</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a40e8daa5f9257275becbbf3466b26b26" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>header_type</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a17f6edba5252069bb1b48491dd7842ddaf8c3ecc06fe49ea1e79bfccf5125176d" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>LONG_HEADER</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink_1ac00ef6e0e889fbfbd84392743d5a9243" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a699ecae2f5930a7588a1c19b4a3dcb80" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>mode</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a4f7a88aeb044cc1c9020b484a7a692ae" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>param_mode</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aba33cc03ba00319d9512df8c6c15ffe8" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>preamble_len</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556deadf22c6628d886e7f4911d2968426ce15" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>PREAMBLE_SEARCH</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556deaedb8a4cc40bb761fe9f257f709f5b25e" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>READ_DATA</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a3545fb2edba0c3af38523e30145b9c7d" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>reset</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a9b5cfa5521de29eadd1872143f6ae6bd" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>S</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a17f6edba5252069bb1b48491dd7842dda5e4905b48f30cb754bc5f787a656fc8f" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>SHORT_HEADER</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink_1a2fadde5432271af8f9cd797caab17db6" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1af3638572a80ad3f0eaf8a3de40d5e26a" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>state</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556dea752791b23585ed526932b0327bff3087" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>SYNC_WORD_SEARCH</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a8bafbccee10ef3b79bbf0b81d3b6ec8d" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>T</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5345f670e87c16d8764b046c2e4bf104a8ace80f9e8e190bea0f39a47a45fb02c" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>TYPE_A</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5345f670e87c16d8764b046c2e4bf104aaa06311a2f4c0bd09fd2560e16a58500" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>TYPE_B</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1ad73aa51e22d52bca24479bf0875d8751" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>wmbus_packet_sink_impl</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1ac74fed7c84d253b5566b4209f59689e6" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl</scope><name>~wmbus_packet_sink_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

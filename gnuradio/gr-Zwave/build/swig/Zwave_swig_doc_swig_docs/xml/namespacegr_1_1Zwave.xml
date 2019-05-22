@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1Zwave" kind="namespace" language="C++">
+    <compoundname>gr::Zwave</compoundname>
+    <innerclass refid="classgr_1_1Zwave_1_1packet__sink" prot="public">gr::Zwave::packet_sink</innerclass>
+    <innerclass refid="classgr_1_1Zwave_1_1packet__sink__9__6" prot="public">gr::Zwave::packet_sink_9_6</innerclass>
+    <innerclass refid="classgr_1_1Zwave_1_1preamble" prot="public">gr::Zwave::preamble</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/scapy-radio/gnuradio/gr-Zwave/include/Zwave/packet_sink.h" line="30" column="1"/>
+  </compounddef>
+</doxygen>

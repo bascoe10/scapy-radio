@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/scapy-radio/gnuradio/gr-wmbus/lib/qa_wmbus.cc
+qa_wmbus.h
+/root/scapy-radio/gnuradio/gr-wmbus/lib/qa_wmbus.h
+
+/root/scapy-radio/gnuradio/gr-wmbus/lib/qa_wmbus.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/root/scapy-radio/gnuradio/gr-wmbus/lib/test_wmbus.cc
+config.h
+/root/scapy-radio/gnuradio/gr-wmbus/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_wmbus.h
+/root/scapy-radio/gnuradio/gr-wmbus/lib/qa_wmbus.h
+iostream
+-
+fstream
+-
+

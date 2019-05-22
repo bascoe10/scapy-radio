@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared  -o _Zwave_swig.so CMakeFiles/_Zwave_swig.dir/Zwave_swigPYTHON_wrap.cxx.o -lpython2.7 ../lib/libgnuradio-Zwave.so -lboost_filesystem -lboost_system -lgnuradio-runtime -Wl,-rpath,/root/scapy-radio/gnuradio/gr-Zwave/build/lib: 

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1bt4le" kind="namespace" language="C++">
+    <compoundname>gr::bt4le</compoundname>
+    <innerclass refid="classgr_1_1bt4le_1_1packet__sink" prot="public">gr::bt4le::packet_sink</innerclass>
+    <innerclass refid="classgr_1_1bt4le_1_1preamble__prefixer" prot="public">gr::bt4le::preamble_prefixer</innerclass>
+    <innerclass refid="classgr_1_1bt4le_1_1whitening" prot="public">gr::bt4le::whitening</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/scapy-radio/gnuradio/gr-bt4le/include/bt4le/packet_sink.h" line="30" column="1"/>
+  </compounddef>
+</doxygen>

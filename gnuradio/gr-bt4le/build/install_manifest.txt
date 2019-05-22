@@ -1,0 +1,17 @@
+/usr/local/include/bt4le/api.h
+/usr/local/include/bt4le/packet_sink.h
+/usr/local/include/bt4le/preamble_prefixer.h
+/usr/local/include/bt4le/whitening.h
+/usr/local/lib/libgnuradio-bt4le.so
+/usr/local/lib/python2.7/dist-packages/bt4le/_bt4le_swig.so
+/usr/local/lib/python2.7/dist-packages/bt4le/bt4le_swig.py
+/usr/local/lib/python2.7/dist-packages/bt4le/bt4le_swig.pyc
+/usr/local/lib/python2.7/dist-packages/bt4le/bt4le_swig.pyo
+/usr/local/include/bt4le/bt4le/swig/bt4le_swig.i
+/usr/local/include/bt4le/bt4le/swig/bt4le_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/bt4le/__init__.py
+/usr/local/lib/python2.7/dist-packages/bt4le/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/bt4le/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/bt4le_packet_sink.xml
+/usr/local/share/gnuradio/grc/blocks/bt4le_preamble_prefixer.xml
+/usr/local/share/gnuradio/grc/blocks/bt4le_whitening.xml

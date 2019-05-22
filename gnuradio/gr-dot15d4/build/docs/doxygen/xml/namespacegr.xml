@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr" kind="namespace" language="C++">
+    <compoundname>gr</compoundname>
+    <innernamespace refid="namespacegr_1_1dot15d4">gr::dot15d4</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/scapy-radio/gnuradio/gr-dot15d4/include/dot15d4/packet_sink_scapy.h" line="28" column="1"/>
+  </compounddef>
+</doxygen>

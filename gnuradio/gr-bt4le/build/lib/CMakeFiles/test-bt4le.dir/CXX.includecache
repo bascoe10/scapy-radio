@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/scapy-radio/gnuradio/gr-bt4le/lib/qa_bt4le.cc
+qa_bt4le.h
+/root/scapy-radio/gnuradio/gr-bt4le/lib/qa_bt4le.h
+
+/root/scapy-radio/gnuradio/gr-bt4le/lib/qa_bt4le.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/root/scapy-radio/gnuradio/gr-bt4le/lib/test_bt4le.cc
+config.h
+/root/scapy-radio/gnuradio/gr-bt4le/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_bt4le.h
+/root/scapy-radio/gnuradio/gr-bt4le/lib/qa_bt4le.h
+iostream
+-
+

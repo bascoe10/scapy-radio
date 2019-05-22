@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1wmbus_1_1wmbus__preamble__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::wmbus::wmbus_preamble_impl</compoundname>
+    <basecompoundref refid="classgr_1_1wmbus_1_1wmbus__preamble" prot="public" virt="non-virtual">gr::wmbus::wmbus_preamble</basecompoundref>
+    <includes refid="wmbus__preamble__impl_8h" local="no">wmbus_preamble_impl.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0" prot="private" static="no">
+        <name>mode_t</name>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0a7038a8ba78ff9aaad1c3055326200c36" prot="private">
+          <name>S</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0a365e7c645f4f94a10c93de55ef6d659e" prot="private">
+          <name>T</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0ae7383b34cfa9361f6c391468ae7a8555" prot="private">
+          <name>C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0a39816b4c8ea81388e02a705feeb3ea7f" prot="private">
+          <name>C2C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="33" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="enum" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab4676e551712af3a462e943deb9cf8a6" prot="private" static="no">
+        <name>frame_type_t</name>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab4676e551712af3a462e943deb9cf8a6a3875824a96d774c03ed5447fb00c5158" prot="private">
+          <name>TYPE_A</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab4676e551712af3a462e943deb9cf8a6a6305ceb9766ec792409513196d9d2fa6" prot="private">
+          <name>TYPE_B</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="34" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1aeb91e1e95e5aef4ddba18b7aef49051c" prot="private" static="no" mutable="no">
+        <type>buffer_sptr</type>
+        <definition>buffer_sptr gr::wmbus::wmbus_preamble_impl::block_out_ptr</definition>
+        <argsstring></argsstring>
+        <name>block_out_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="32" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a1387a836e7512b9066d625718f5478ca" prot="private" static="no" mutable="no">
+        <type>enum gr::wmbus::wmbus_preamble_impl::mode_t</type>
+        <definition>enum gr::wmbus::wmbus_preamble_impl::mode_t  gr::wmbus::wmbus_preamble_impl::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1aef6bd329fa43e0186eae7f305d9eb151" prot="private" static="no" mutable="no">
+        <type>enum gr::wmbus::wmbus_preamble_impl::frame_type_t</type>
+        <definition>enum gr::wmbus::wmbus_preamble_impl::frame_type_t  gr::wmbus::wmbus_preamble_impl::frame_type</definition>
+        <argsstring></argsstring>
+        <name>frame_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1af88e26f89a04d2f64210ccea4900727d" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::wmbus::wmbus_preamble_impl::preamble_len</definition>
+        <argsstring></argsstring>
+        <name>preamble_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="35" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a018ccb660843c15e157354a506d1d99c" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::wmbus::wmbus_preamble_impl::in_data_len</definition>
+        <argsstring></argsstring>
+        <name>in_data_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="36" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a2a21cc86ede0b2508b5fee6a4bcb3258" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::wmbus::wmbus_preamble_impl::out_data_len_cod</definition>
+        <argsstring></argsstring>
+        <name>out_data_len_cod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="37" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a3ef888845f5a7cfe6de3bfd9fecb4ba2" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::wmbus::wmbus_preamble_impl::out_data_len_total</definition>
+        <argsstring></argsstring>
+        <name>out_data_len_total</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="38" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9ffb0af263dff2a82024a6f02190fbc9" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::wmbus::wmbus_preamble_impl::sync_word</definition>
+        <argsstring></argsstring>
+        <name>sync_word</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="39" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a163b288c8794ed1f8d9b86b54e365cd3" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::wmbus::wmbus_preamble_impl::out_buff[700]</definition>
+        <argsstring>[700]</argsstring>
+        <name>out_buff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="40" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab0ceb4d7cfd4cf2e01a089a7589b2afb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::wmbus::wmbus_preamble_impl::delay</definition>
+        <argsstring></argsstring>
+        <name>delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="41" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a5f18e4eeaf0d9574a58dad95c48be421" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::wmbus::wmbus_preamble_impl::dbg</definition>
+        <argsstring></argsstring>
+        <name>dbg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="42" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a3eb292cdc5657649f565a1559af50c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::wmbus::wmbus_preamble_impl::wmbus_preamble_impl</definition>
+        <argsstring>(int usleep, bool debug)</argsstring>
+        <name>wmbus_preamble_impl</name>
+        <param>
+          <type>int</type>
+          <declname>usleep</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>debug</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ad7adf1ee94fdff6bb80ff1b4ccb87c2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::wmbus::wmbus_preamble_impl::~wmbus_preamble_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~wmbus_preamble_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1af865ec32bec7ac835e0139750d101954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::wmbus::wmbus_preamble_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1adea429a735b02651dfef32c97c7f8689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::wmbus::wmbus_preamble_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ac6e4f490f2b1b1eba64eea1b136c5c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::wmbus::wmbus_preamble_impl::callback</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>callback</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a02ac064072ea666bb0269264eafe37b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::wmbus::wmbus_preamble_impl::code_manchester</definition>
+        <argsstring>(unsigned char src, int i, unsigned char *dst)</argsstring>
+        <name>code_manchester</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a36a74404c46d89638338cc5e851b31c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::wmbus::wmbus_preamble_impl::code_3to6</definition>
+        <argsstring>(unsigned char *in, int in_len, unsigned char *out)</argsstring>
+        <name>code_3to6</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>in_len</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="58" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>gr::wmbus::wmbus_preamble</label>
+        <link refid="classgr_1_1wmbus_1_1wmbus__preamble"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>gr::wmbus::wmbus_preamble_impl</label>
+        <link refid="classgr_1_1wmbus_1_1wmbus__preamble__impl"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>gr::wmbus::wmbus_preamble</label>
+        <link refid="classgr_1_1wmbus_1_1wmbus__preamble"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>gr::wmbus::wmbus_preamble_impl</label>
+        <link refid="classgr_1_1wmbus_1_1wmbus__preamble__impl"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" line="30" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_preamble_impl.h" bodystart="29" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1aeb91e1e95e5aef4ddba18b7aef49051c" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>block_out_ptr</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0ae7383b34cfa9361f6c391468ae7a8555" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>C</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0a39816b4c8ea81388e02a705feeb3ea7f" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>C2C</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ac6e4f490f2b1b1eba64eea1b136c5c33" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>callback</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a36a74404c46d89638338cc5e851b31c3" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>code_3to6</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a02ac064072ea666bb0269264eafe37b8" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>code_manchester</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a5f18e4eeaf0d9574a58dad95c48be421" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>dbg</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab0ceb4d7cfd4cf2e01a089a7589b2afb" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>delay</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1af865ec32bec7ac835e0139750d101954" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1aef6bd329fa43e0186eae7f305d9eb151" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>frame_type</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab4676e551712af3a462e943deb9cf8a6" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>frame_type_t</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1adea429a735b02651dfef32c97c7f8689" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a018ccb660843c15e157354a506d1d99c" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>in_data_len</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble_1ac2f5b1623b39eb86d9ca59558f0ff13d" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a1387a836e7512b9066d625718f5478ca" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>mode</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>mode_t</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a163b288c8794ed1f8d9b86b54e365cd3" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>out_buff</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a2a21cc86ede0b2508b5fee6a4bcb3258" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>out_data_len_cod</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a3ef888845f5a7cfe6de3bfd9fecb4ba2" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>out_data_len_total</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1af88e26f89a04d2f64210ccea4900727d" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>preamble_len</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0a7038a8ba78ff9aaad1c3055326200c36" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>S</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble_1ad8d67b57efa2a05763220a2adebdf54e" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9ffb0af263dff2a82024a6f02190fbc9" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>sync_word</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0a365e7c645f4f94a10c93de55ef6d659e" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>T</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab4676e551712af3a462e943deb9cf8a6a3875824a96d774c03ed5447fb00c5158" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>TYPE_A</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab4676e551712af3a462e943deb9cf8a6a6305ceb9766ec792409513196d9d2fa6" prot="private" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>TYPE_B</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a3eb292cdc5657649f565a1559af50c10" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>wmbus_preamble_impl</name></member>
+      <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ad7adf1ee94fdff6bb80ff1b4ccb87c2d" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_preamble_impl</scope><name>~wmbus_preamble_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

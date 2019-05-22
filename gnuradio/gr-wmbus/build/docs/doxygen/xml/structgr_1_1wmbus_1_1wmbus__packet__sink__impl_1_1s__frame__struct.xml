@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structgr_1_1wmbus_1_1wmbus__packet__sink__impl_1_1s__frame__struct" kind="struct" language="C++" prot="private">
+    <compoundname>gr::wmbus::wmbus_packet_sink_impl::s_frame_struct</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1wmbus_1_1wmbus__packet__sink__impl_1_1s__frame__struct_1ab5a7b9d445bd72275a596db748fee278" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::wmbus::wmbus_packet_sink_impl::s_frame_struct::len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="47" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1wmbus_1_1wmbus__packet__sink__impl_1_1s__frame__struct_1a79e35c674c9a3b501c6ac90b91ff9c6f" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::wmbus::wmbus_packet_sink_impl::s_frame_struct::frame[MAX_FRAME_SIZE]</definition>
+        <argsstring>[MAX_FRAME_SIZE]</argsstring>
+        <name>frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="48" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" line="46" column="1" bodyfile="/root/scapy-radio/gnuradio/gr-wmbus/lib/wmbus_packet_sink_impl.h" bodystart="45" bodyend="49"/>
+    <listofallmembers>
+      <member refid="structgr_1_1wmbus_1_1wmbus__packet__sink__impl_1_1s__frame__struct_1a79e35c674c9a3b501c6ac90b91ff9c6f" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl::s_frame_struct</scope><name>frame</name></member>
+      <member refid="structgr_1_1wmbus_1_1wmbus__packet__sink__impl_1_1s__frame__struct_1ab5a7b9d445bd72275a596db748fee278" prot="public" virt="non-virtual"><scope>gr::wmbus::wmbus_packet_sink_impl::s_frame_struct</scope><name>len</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

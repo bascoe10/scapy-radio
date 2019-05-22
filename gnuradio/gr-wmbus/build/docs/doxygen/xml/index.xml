@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1wmbus_1_1multiplex" kind="class"><name>gr::wmbus::multiplex</name>
+    <member refid="classgr_1_1wmbus_1_1multiplex_1af50d5a76ea21b6931d9a849410221c8f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1wmbus_1_1multiplex_1aa7ab8e17b9b9eb3310400673de970618" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="structgr_1_1wmbus_1_1wmbus__packet__sink__impl_1_1s__frame__struct" kind="struct"><name>gr::wmbus::wmbus_packet_sink_impl::s_frame_struct</name>
+    <member refid="structgr_1_1wmbus_1_1wmbus__packet__sink__impl_1_1s__frame__struct_1ab5a7b9d445bd72275a596db748fee278" kind="variable"><name>len</name></member>
+    <member refid="structgr_1_1wmbus_1_1wmbus__packet__sink__impl_1_1s__frame__struct_1a79e35c674c9a3b501c6ac90b91ff9c6f" kind="variable"><name>frame</name></member>
+  </compound>
+  <compound refid="classgr_1_1wmbus_1_1wmbus__packet__sink" kind="class"><name>gr::wmbus::wmbus_packet_sink</name>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink_1a2fadde5432271af8f9cd797caab17db6" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink_1ac00ef6e0e889fbfbd84392743d5a9243" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl" kind="class"><name>gr::wmbus::wmbus_packet_sink_impl</name>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556de" kind="enum"><name>@0</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556deadf22c6628d886e7f4911d2968426ce15" kind="enumvalue"><name>PREAMBLE_SEARCH</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556dea752791b23585ed526932b0327bff3087" kind="enumvalue"><name>SYNC_WORD_SEARCH</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556deaffbe5b14ce4d25597a6c562cf2b03564" kind="enumvalue"><name>GET_LEN</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a087561b564cc44d79d489fc35ea556deaedb8a4cc40bb761fe9f257f709f5b25e" kind="enumvalue"><name>READ_DATA</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157" kind="enum"><name>@1</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a9b5cfa5521de29eadd1872143f6ae6bd" kind="enumvalue"><name>S</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a8bafbccee10ef3b79bbf0b81d3b6ec8d" kind="enumvalue"><name>T</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a3751d1e1baae52ceeb6c780e52387a05" kind="enumvalue"><name>C</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157a3de3bddd6be5364609555664fdca762e" kind="enumvalue"><name>C2C</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aded13ef70de36592108bd42d5875a157aa1026a0cc60bd34072ae3218dd30c8d1" kind="enumvalue"><name>CorT</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a17f6edba5252069bb1b48491dd7842dd" kind="enum"><name>@2</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a17f6edba5252069bb1b48491dd7842dda5e4905b48f30cb754bc5f787a656fc8f" kind="enumvalue"><name>SHORT_HEADER</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a17f6edba5252069bb1b48491dd7842ddaf8c3ecc06fe49ea1e79bfccf5125176d" kind="enumvalue"><name>LONG_HEADER</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5345f670e87c16d8764b046c2e4bf104" kind="enum"><name>@3</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5345f670e87c16d8764b046c2e4bf104a8ace80f9e8e190bea0f39a47a45fb02c" kind="enumvalue"><name>TYPE_A</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5345f670e87c16d8764b046c2e4bf104aaa06311a2f4c0bd09fd2560e16a58500" kind="enumvalue"><name>TYPE_B</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1af3638572a80ad3f0eaf8a3de40d5e26a" kind="variable"><name>state</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a699ecae2f5930a7588a1c19b4a3dcb80" kind="variable"><name>mode</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a40e8daa5f9257275becbbf3466b26b26" kind="variable"><name>header_type</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a9c21155187aaddef1747775f31960db7" kind="variable"><name>frame_type</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a4f7a88aeb044cc1c9020b484a7a692ae" kind="variable"><name>param_mode</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a1be43b4530014de1c3c18212e9037a25" kind="variable"><name>frame_shift_reg</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a7ddcc22986c8059d39fa688ab30cae63" kind="variable"><name>bit_count</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a6656401bc02ab533e853fbc5f8a967c8" kind="variable"><name>frame_len</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aba33cc03ba00319d9512df8c6c15ffe8" kind="variable"><name>preamble_len</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a1916ed2445f1e05b2cb4de7be8d0e9aa" kind="variable"><name>GRH</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a08f49ff8839746cf6aef0bc9b8129de8" kind="variable"><name>dbg</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a985e4e51530e7fb3f85c458925d67d6a" kind="variable"><name>frame_struct</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1ad73aa51e22d52bca24479bf0875d8751" kind="function"><name>wmbus_packet_sink_impl</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1ac74fed7c84d253b5566b4209f59689e6" kind="function"><name>~wmbus_packet_sink_impl</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a80e19bff7d2f71ad4262f7a9b7e5314f" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a73de1af288519a373f957939258aa1b7" kind="function"><name>general_work</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a6f16568d4138b682a4e98506f47f3c0a" kind="function"><name>decode_3to6</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a5a0ee140cb507333b0a1ad5af20cd9ba" kind="function"><name>decode_manchester</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a251d83737e417912d4359d91eec4e34a" kind="function"><name>calc_num_crc</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1a3545fb2edba0c3af38523e30145b9c7d" kind="function"><name>reset</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl_1aefbb7ec8b650c60c8a1a58605772b783" kind="function"><name>craft_GR_Header</name></member>
+  </compound>
+  <compound refid="classgr_1_1wmbus_1_1wmbus__preamble" kind="class"><name>gr::wmbus::wmbus_preamble</name>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble_1ad8d67b57efa2a05763220a2adebdf54e" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble_1ac2f5b1623b39eb86d9ca59558f0ff13d" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1wmbus_1_1wmbus__preamble__impl" kind="class"><name>gr::wmbus::wmbus_preamble_impl</name>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0" kind="enum"><name>mode_t</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0a7038a8ba78ff9aaad1c3055326200c36" kind="enumvalue"><name>S</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0a365e7c645f4f94a10c93de55ef6d659e" kind="enumvalue"><name>T</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0ae7383b34cfa9361f6c391468ae7a8555" kind="enumvalue"><name>C</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9457966592f615552576be343a04b2c0a39816b4c8ea81388e02a705feeb3ea7f" kind="enumvalue"><name>C2C</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab4676e551712af3a462e943deb9cf8a6" kind="enum"><name>frame_type_t</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab4676e551712af3a462e943deb9cf8a6a3875824a96d774c03ed5447fb00c5158" kind="enumvalue"><name>TYPE_A</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab4676e551712af3a462e943deb9cf8a6a6305ceb9766ec792409513196d9d2fa6" kind="enumvalue"><name>TYPE_B</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1aeb91e1e95e5aef4ddba18b7aef49051c" kind="variable"><name>block_out_ptr</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a1387a836e7512b9066d625718f5478ca" kind="variable"><name>mode</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1aef6bd329fa43e0186eae7f305d9eb151" kind="variable"><name>frame_type</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1af88e26f89a04d2f64210ccea4900727d" kind="variable"><name>preamble_len</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a018ccb660843c15e157354a506d1d99c" kind="variable"><name>in_data_len</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a2a21cc86ede0b2508b5fee6a4bcb3258" kind="variable"><name>out_data_len_cod</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a3ef888845f5a7cfe6de3bfd9fecb4ba2" kind="variable"><name>out_data_len_total</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a9ffb0af263dff2a82024a6f02190fbc9" kind="variable"><name>sync_word</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a163b288c8794ed1f8d9b86b54e365cd3" kind="variable"><name>out_buff</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ab0ceb4d7cfd4cf2e01a089a7589b2afb" kind="variable"><name>delay</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a5f18e4eeaf0d9574a58dad95c48be421" kind="variable"><name>dbg</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a3eb292cdc5657649f565a1559af50c10" kind="function"><name>wmbus_preamble_impl</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ad7adf1ee94fdff6bb80ff1b4ccb87c2d" kind="function"><name>~wmbus_preamble_impl</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1af865ec32bec7ac835e0139750d101954" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1adea429a735b02651dfef32c97c7f8689" kind="function"><name>general_work</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1ac6e4f490f2b1b1eba64eea1b136c5c33" kind="function"><name>callback</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a02ac064072ea666bb0269264eafe37b8" kind="function"><name>code_manchester</name></member>
+    <member refid="classgr_1_1wmbus_1_1wmbus__preamble__impl_1a36a74404c46d89638338cc5e851b31c3" kind="function"><name>code_3to6</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1wmbus" kind="namespace"><name>gr::wmbus</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1ac37c436037e658e30591849d19697d6c" kind="define"><name>WMBUS_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="multiplex_8h" kind="file"><name>multiplex.h</name>
+  </compound>
+  <compound refid="wmbus__packet__sink_8h" kind="file"><name>wmbus_packet_sink.h</name>
+  </compound>
+  <compound refid="wmbus__packet__sink__impl_8h" kind="file"><name>wmbus_packet_sink_impl.h</name>
+    <member refid="wmbus__packet__sink__impl_8h_1ad15d35a0d29a9dbf9324e3859ce3b008" kind="define"><name>MAX_FRAME_SIZE</name></member>
+  </compound>
+  <compound refid="wmbus__preamble_8h" kind="file"><name>wmbus_preamble.h</name>
+  </compound>
+  <compound refid="wmbus__preamble__impl_8h" kind="file"><name>wmbus_preamble_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_a1e00b13f7c27bda5517f1be24d9a902" kind="dir"><name>wmbus</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

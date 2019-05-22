@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="preamble__prefixer__scapy__impl_8h" kind="file" language="C++">
+    <compoundname>preamble_prefixer_scapy_impl.h</compoundname>
+    <includes refid="preamble__prefixer__scapy_8h" local="no">sigfox/preamble_prefixer_scapy.h</includes>
+    <incdepgraph>
+      <node id="32">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="30">
+        <label>sigfox/preamble_prefixer_scapy.h</label>
+        <link refid="preamble__prefixer__scapy_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>preamble_prefixer_scapy_impl.h</label>
+        <link refid="preamble_prefixer_scapy_impl.h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="31">
+        <label>sigfox/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1sigfox_1_1preamble__prefixer__scapy__impl" prot="public">gr::sigfox::preamble_prefixer_scapy_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1sigfox">gr::sigfox</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/scapy-radio/gnuradio/gr-sigfox/lib/preamble_prefixer_scapy_impl.h"/>
+  </compounddef>
+</doxygen>

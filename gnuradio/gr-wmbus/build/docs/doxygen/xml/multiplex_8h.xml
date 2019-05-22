@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="multiplex_8h" kind="file" language="C++">
+    <compoundname>multiplex.h</compoundname>
+    <includes refid="api_8h" local="no">wmbus/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="13">
+        <label>wmbus/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="12">
+        <label>multiplex.h</label>
+        <link refid="multiplex.h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1wmbus_1_1multiplex" prot="public">gr::wmbus::multiplex</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1wmbus">gr::wmbus</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/scapy-radio/gnuradio/gr-wmbus/include/wmbus/multiplex.h"/>
+  </compounddef>
+</doxygen>

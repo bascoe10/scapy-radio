@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/scapy-radio/gnuradio/gr-dot15d4/lib/qa_dot15d4.cc
+qa_dot15d4.h
+/root/scapy-radio/gnuradio/gr-dot15d4/lib/qa_dot15d4.h
+
+/root/scapy-radio/gnuradio/gr-dot15d4/lib/qa_dot15d4.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/root/scapy-radio/gnuradio/gr-dot15d4/lib/test_dot15d4.cc
+config.h
+/root/scapy-radio/gnuradio/gr-dot15d4/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_dot15d4.h
+/root/scapy-radio/gnuradio/gr-dot15d4/lib/qa_dot15d4.h
+iostream
+-
+fstream
+-
+

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1wmbus" kind="namespace" language="C++">
+    <compoundname>gr::wmbus</compoundname>
+    <innerclass refid="classgr_1_1wmbus_1_1multiplex" prot="public">gr::wmbus::multiplex</innerclass>
+    <innerclass refid="classgr_1_1wmbus_1_1wmbus__packet__sink" prot="public">gr::wmbus::wmbus_packet_sink</innerclass>
+    <innerclass refid="classgr_1_1wmbus_1_1wmbus__packet__sink__impl" prot="public">gr::wmbus::wmbus_packet_sink_impl</innerclass>
+    <innerclass refid="classgr_1_1wmbus_1_1wmbus__preamble" prot="public">gr::wmbus::wmbus_preamble</innerclass>
+    <innerclass refid="classgr_1_1wmbus_1_1wmbus__preamble__impl" prot="public">gr::wmbus::wmbus_preamble_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/scapy-radio/gnuradio/gr-wmbus/include/wmbus/multiplex.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>
