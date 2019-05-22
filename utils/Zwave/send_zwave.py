@@ -23,7 +23,7 @@ class Stop_alarm(Automaton):
     @ATMT.state(initial=1)
     def BEGIN(self):
         switch_radio_protocol("zwave")
-        self.last_pkt = None
+        self.last_pkt = ZWaveReq(BaseZwave(homeid=12345))
         print "BEGIN"
         raise self.WAITING()
 
@@ -35,23 +35,18 @@ class Stop_alarm(Automaton):
     @ATMT.receive_condition(WAITING)
     def alarm_on(self, packet_receive):
         """if receive turn on the alarm then go to TURN_OFF_ALARM"""
-        human = lambda p, f: p.get_field(f).i2repr(p, getattr(p, f))
-        if ZWaveReq in packet_receive:
-            self.last_pkt = packet_receive
-            if ZWaveSwitchBin in packet_receive:
-                if human(packet_receive[ZWaveSwitchBin], 'switchcmd') == "SWITCH":
-                    if human(packet_receive[ZWaveSwitchBin], 'val') == "ON":
-                        raise self.WAITING()
+        time.sleep(2)
+        raise self.WAITING()
 
-    @ATMT.action(alarm_on)
-    def alarm_off(self):
-        time.sleep(0.5)
-        print "SWITCH ALARM OFF "
-        pkt = self.last_pkt[ZWaveReq].copy()
-        pkt[ZWaveSwitchBin].val = "OFF"
-        pkt.seqn += 1
-        pkt.crc = None
-        self.send(pkt)
+    # @ATMT.action(alarm_on)
+    # def alarm_off(self):
+    #     time.sleep(0.5)
+    #     print "SWITCH ALARM OFF "
+    #     pkt = self.last_pkt[ZWaveReq].copy()
+    #     pkt[ZWaveSwitchBin].val = "OFF"
+    #     pkt.seqn += 1
+    #     pkt.crc = None
+    #     self.send(pkt)
 
 
 if __name__ == "__main__":
