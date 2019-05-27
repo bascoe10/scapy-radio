@@ -45,7 +45,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.5/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.5/Modules/FindPkgConfig.cmake"
-  "/usr/share/cmake-3.5/Modules/FindPythonInterp.cmake"
   "/usr/share/cmake-3.5/Modules/FindPythonLibs.cmake"
   "/usr/share/cmake-3.5/Modules/FindSWIG.cmake"
   "/usr/share/cmake-3.5/Modules/MultiArchCross.cmake"

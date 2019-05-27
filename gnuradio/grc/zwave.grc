@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.10'?>
+<?grc format='1' created='3.7.9'?>
 <flow_graph>
   <timestamp>Wed Apr 16 10:35:57 2014</timestamp>
   <block>
@@ -2177,10 +2177,6 @@
       <value>False</value>
     </param>
     <param>
-      <key>hide_lo_controls</key>
-      <value>True</value>
-    </param>
-    <param>
       <key>stream_args</key>
       <value></value>
     </param>
@@ -2209,7 +2205,7 @@
     </param>
     <param>
       <key>ant0</key>
-      <value>RX2</value>
+      <value>TX/RX</value>
     </param>
     <param>
       <key>bw0</key>
@@ -2234,14 +2230,6 @@
     <param>
       <key>gain0</key>
       <value>gain</value>
-    </param>
-    <param>
-      <key>lo_export0</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source0</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant10</key>
@@ -2272,14 +2260,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export10</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source10</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant11</key>
       <value></value>
     </param>
@@ -2306,14 +2286,6 @@
     <param>
       <key>gain11</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export11</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source11</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant12</key>
@@ -2344,14 +2316,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export12</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source12</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant13</key>
       <value></value>
     </param>
@@ -2378,14 +2342,6 @@
     <param>
       <key>gain13</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export13</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source13</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant14</key>
@@ -2416,14 +2372,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export14</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source14</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant15</key>
       <value></value>
     </param>
@@ -2450,14 +2398,6 @@
     <param>
       <key>gain15</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export15</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source15</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant16</key>
@@ -2488,14 +2428,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export16</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source16</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant17</key>
       <value></value>
     </param>
@@ -2522,14 +2454,6 @@
     <param>
       <key>gain17</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export17</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source17</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant18</key>
@@ -2560,14 +2484,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export18</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source18</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant19</key>
       <value></value>
     </param>
@@ -2594,14 +2510,6 @@
     <param>
       <key>gain19</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export19</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source19</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant1</key>
@@ -2632,14 +2540,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export1</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source1</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant20</key>
       <value></value>
     </param>
@@ -2666,14 +2566,6 @@
     <param>
       <key>gain20</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export20</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source20</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant21</key>
@@ -2704,14 +2596,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export21</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source21</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant22</key>
       <value></value>
     </param>
@@ -2738,14 +2622,6 @@
     <param>
       <key>gain22</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export22</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source22</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant23</key>
@@ -2776,14 +2652,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export23</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source23</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant24</key>
       <value></value>
     </param>
@@ -2810,14 +2678,6 @@
     <param>
       <key>gain24</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export24</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source24</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant25</key>
@@ -2848,14 +2708,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export25</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source25</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant26</key>
       <value></value>
     </param>
@@ -2882,14 +2734,6 @@
     <param>
       <key>gain26</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export26</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source26</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant27</key>
@@ -2920,14 +2764,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export27</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source27</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant28</key>
       <value></value>
     </param>
@@ -2954,14 +2790,6 @@
     <param>
       <key>gain28</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export28</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source28</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant29</key>
@@ -2992,14 +2820,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export29</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source29</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant2</key>
       <value></value>
     </param>
@@ -3026,14 +2846,6 @@
     <param>
       <key>gain2</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export2</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source2</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant30</key>
@@ -3064,14 +2876,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export30</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source30</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant31</key>
       <value></value>
     </param>
@@ -3098,14 +2902,6 @@
     <param>
       <key>gain31</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export31</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source31</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant3</key>
@@ -3136,14 +2932,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export3</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source3</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant4</key>
       <value></value>
     </param>
@@ -3170,14 +2958,6 @@
     <param>
       <key>gain4</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export4</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source4</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant5</key>
@@ -3208,14 +2988,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export5</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source5</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant6</key>
       <value></value>
     </param>
@@ -3242,14 +3014,6 @@
     <param>
       <key>gain6</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export6</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source6</key>
-      <value>internal</value>
     </param>
     <param>
       <key>ant7</key>
@@ -3280,14 +3044,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export7</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source7</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant8</key>
       <value></value>
     </param>
@@ -3316,14 +3072,6 @@
       <value>0</value>
     </param>
     <param>
-      <key>lo_export8</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source8</key>
-      <value>internal</value>
-    </param>
-    <param>
       <key>ant9</key>
       <value></value>
     </param>
@@ -3350,14 +3098,6 @@
     <param>
       <key>gain9</key>
       <value>0</value>
-    </param>
-    <param>
-      <key>lo_export9</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>lo_source9</key>
-      <value>internal</value>
     </param>
     <param>
       <key>clock_rate</key>
@@ -3520,10 +3260,6 @@
       <value>False</value>
     </param>
     <param>
-      <key>hide_lo_controls</key>
-      <value>True</value>
-    </param>
-    <param>
       <key>stream_args</key>
       <value></value>
     </param>
@@ -3538,6 +3274,109 @@
     <param>
       <key>otw</key>
       <value></value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_fftsink2</key>
+    <param>
+      <key>avg_alpha</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>baseband_freq</key>
+      <value>freq_offset+868.40e6+200e3</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>fft_size</key>
+      <value>1024</value>
+    </param>
+    <param>
+      <key>freqvar</key>
+      <value>None</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(368, 645)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>wxgui_fftsink2_0</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
+    </param>
+    <param>
+      <key>peak_hold</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>ref_scale</key>
+      <value>2.0</value>
+    </param>
+    <param>
+      <key>fft_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>FFT Plot</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>None</value>
+    </param>
+    <param>
+      <key>y_divs</key>
+      <value>10</value>
+    </param>
+    <param>
+      <key>y_per_div</key>
+      <value>10</value>
     </param>
   </block>
   <block>
@@ -3686,6 +3525,12 @@
   <connection>
     <source_block_id>uhd_usrp_source_0</source_block_id>
     <sink_block_id>freq_xlating_fir_filter_xxx_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>uhd_usrp_source_0</source_block_id>
+    <sink_block_id>wxgui_fftsink2_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
