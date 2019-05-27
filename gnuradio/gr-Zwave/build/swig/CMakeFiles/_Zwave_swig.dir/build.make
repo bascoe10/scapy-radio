@@ -58,6 +58,7 @@ include swig/CMakeFiles/_Zwave_swig.dir/progress.make
 include swig/CMakeFiles/_Zwave_swig.dir/flags.make
 
 swig/Zwave_swigPYTHON_wrap.cxx: /usr/include/gnuradio/swig/gr_types.i
+swig/Zwave_swigPYTHON_wrap.cxx: swig/Zwave_swig_doc.i
 swig/Zwave_swigPYTHON_wrap.cxx: /usr/include/gnuradio/swig/gnuradio_swig_bug_workaround.h
 swig/Zwave_swigPYTHON_wrap.cxx: ../swig/Zwave_swig.i
 swig/Zwave_swigPYTHON_wrap.cxx: /usr/include/gnuradio/swig/gr_extras.i
@@ -72,15 +73,15 @@ swig/Zwave_swigPYTHON_wrap.cxx: ../swig/Zwave_swig.i
 swig/Zwave_swig.py: swig/Zwave_swigPYTHON_wrap.cxx
 	@$(CMAKE_COMMAND) -E touch_nocreate swig/Zwave_swig.py
 
+swig/Zwave_swig_doc.i: swig/Zwave_swig_doc_swig_docs/xml/index.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/scapy-radio/gnuradio/gr-Zwave/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Zwave_swig_doc.i"
+	cd /root/scapy-radio/gnuradio/gr-Zwave/docs/doxygen && /usr/bin/python2 -B /root/scapy-radio/gnuradio/gr-Zwave/docs/doxygen/swig_doc.py /root/scapy-radio/gnuradio/gr-Zwave/build/swig/Zwave_swig_doc_swig_docs/xml /root/scapy-radio/gnuradio/gr-Zwave/build/swig/Zwave_swig_doc.i
+
 swig/Zwave_swig.tag: swig/Zwave_swig_doc.i
 swig/Zwave_swig.tag: swig/_Zwave_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/scapy-radio/gnuradio/gr-Zwave/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Zwave_swig.tag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/scapy-radio/gnuradio/gr-Zwave/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Zwave_swig.tag"
 	cd /root/scapy-radio/gnuradio/gr-Zwave/build/swig && ./_Zwave_swig_swig_tag
 	cd /root/scapy-radio/gnuradio/gr-Zwave/build/swig && /usr/bin/cmake -E touch /root/scapy-radio/gnuradio/gr-Zwave/build/swig/Zwave_swig.tag
-
-swig/Zwave_swig_doc.i: swig/Zwave_swig_doc_swig_docs/xml/index.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/scapy-radio/gnuradio/gr-Zwave/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Zwave_swig_doc.i"
-	cd /root/scapy-radio/gnuradio/gr-Zwave/docs/doxygen && /usr/bin/python2 -B /root/scapy-radio/gnuradio/gr-Zwave/docs/doxygen/swig_doc.py /root/scapy-radio/gnuradio/gr-Zwave/build/swig/Zwave_swig_doc_swig_docs/xml /root/scapy-radio/gnuradio/gr-Zwave/build/swig/Zwave_swig_doc.i
 
 swig/Zwave_swig_doc_swig_docs/xml/index.xml: swig/_Zwave_swig_doc_tag
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/scapy-radio/gnuradio/gr-Zwave/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating doxygen xml for Zwave_swig_doc docs"
@@ -144,8 +145,8 @@ swig/CMakeFiles/_Zwave_swig.dir/clean:
 
 swig/CMakeFiles/_Zwave_swig.dir/depend: swig/Zwave_swigPYTHON_wrap.cxx
 swig/CMakeFiles/_Zwave_swig.dir/depend: swig/Zwave_swig.py
-swig/CMakeFiles/_Zwave_swig.dir/depend: swig/Zwave_swig.tag
 swig/CMakeFiles/_Zwave_swig.dir/depend: swig/Zwave_swig_doc.i
+swig/CMakeFiles/_Zwave_swig.dir/depend: swig/Zwave_swig.tag
 swig/CMakeFiles/_Zwave_swig.dir/depend: swig/Zwave_swig_doc_swig_docs/xml/index.xml
 	cd /root/scapy-radio/gnuradio/gr-Zwave/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/scapy-radio/gnuradio/gr-Zwave /root/scapy-radio/gnuradio/gr-Zwave/swig /root/scapy-radio/gnuradio/gr-Zwave/build /root/scapy-radio/gnuradio/gr-Zwave/build/swig /root/scapy-radio/gnuradio/gr-Zwave/build/swig/CMakeFiles/_Zwave_swig.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/_Zwave_swig.dir/depend

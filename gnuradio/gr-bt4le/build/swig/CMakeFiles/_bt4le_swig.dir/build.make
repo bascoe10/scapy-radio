@@ -61,6 +61,7 @@ swig/bt4le_swigPYTHON_wrap.cxx: /usr/include/gnuradio/swig/gr_types.i
 swig/bt4le_swigPYTHON_wrap.cxx: ../swig/bt4le_swig.i
 swig/bt4le_swigPYTHON_wrap.cxx: /usr/include/gnuradio/swig/gnuradio_swig_bug_workaround.h
 swig/bt4le_swigPYTHON_wrap.cxx: /usr/include/gnuradio/swig/gr_extras.i
+swig/bt4le_swigPYTHON_wrap.cxx: swig/bt4le_swig_doc.i
 swig/bt4le_swigPYTHON_wrap.cxx: /usr/include/gnuradio/swig/gnuradio.i
 swig/bt4le_swigPYTHON_wrap.cxx: /usr/include/gnuradio/swig/gr_shared_ptr.i
 swig/bt4le_swigPYTHON_wrap.cxx: swig/bt4le_swig.tag
@@ -72,15 +73,15 @@ swig/bt4le_swigPYTHON_wrap.cxx: ../swig/bt4le_swig.i
 swig/bt4le_swig.py: swig/bt4le_swigPYTHON_wrap.cxx
 	@$(CMAKE_COMMAND) -E touch_nocreate swig/bt4le_swig.py
 
+swig/bt4le_swig_doc.i: swig/bt4le_swig_doc_swig_docs/xml/index.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/scapy-radio/gnuradio/gr-bt4le/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bt4le_swig_doc.i"
+	cd /root/scapy-radio/gnuradio/gr-bt4le/docs/doxygen && /usr/bin/python2 -B /root/scapy-radio/gnuradio/gr-bt4le/docs/doxygen/swig_doc.py /root/scapy-radio/gnuradio/gr-bt4le/build/swig/bt4le_swig_doc_swig_docs/xml /root/scapy-radio/gnuradio/gr-bt4le/build/swig/bt4le_swig_doc.i
+
 swig/bt4le_swig.tag: swig/bt4le_swig_doc.i
 swig/bt4le_swig.tag: swig/_bt4le_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/scapy-radio/gnuradio/gr-bt4le/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bt4le_swig.tag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/scapy-radio/gnuradio/gr-bt4le/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating bt4le_swig.tag"
 	cd /root/scapy-radio/gnuradio/gr-bt4le/build/swig && ./_bt4le_swig_swig_tag
 	cd /root/scapy-radio/gnuradio/gr-bt4le/build/swig && /usr/bin/cmake -E touch /root/scapy-radio/gnuradio/gr-bt4le/build/swig/bt4le_swig.tag
-
-swig/bt4le_swig_doc.i: swig/bt4le_swig_doc_swig_docs/xml/index.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/scapy-radio/gnuradio/gr-bt4le/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating bt4le_swig_doc.i"
-	cd /root/scapy-radio/gnuradio/gr-bt4le/docs/doxygen && /usr/bin/python2 -B /root/scapy-radio/gnuradio/gr-bt4le/docs/doxygen/swig_doc.py /root/scapy-radio/gnuradio/gr-bt4le/build/swig/bt4le_swig_doc_swig_docs/xml /root/scapy-radio/gnuradio/gr-bt4le/build/swig/bt4le_swig_doc.i
 
 swig/bt4le_swig_doc_swig_docs/xml/index.xml: swig/_bt4le_swig_doc_tag
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/scapy-radio/gnuradio/gr-bt4le/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating doxygen xml for bt4le_swig_doc docs"
@@ -144,8 +145,8 @@ swig/CMakeFiles/_bt4le_swig.dir/clean:
 
 swig/CMakeFiles/_bt4le_swig.dir/depend: swig/bt4le_swigPYTHON_wrap.cxx
 swig/CMakeFiles/_bt4le_swig.dir/depend: swig/bt4le_swig.py
-swig/CMakeFiles/_bt4le_swig.dir/depend: swig/bt4le_swig.tag
 swig/CMakeFiles/_bt4le_swig.dir/depend: swig/bt4le_swig_doc.i
+swig/CMakeFiles/_bt4le_swig.dir/depend: swig/bt4le_swig.tag
 swig/CMakeFiles/_bt4le_swig.dir/depend: swig/bt4le_swig_doc_swig_docs/xml/index.xml
 	cd /root/scapy-radio/gnuradio/gr-bt4le/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/scapy-radio/gnuradio/gr-bt4le /root/scapy-radio/gnuradio/gr-bt4le/swig /root/scapy-radio/gnuradio/gr-bt4le/build /root/scapy-radio/gnuradio/gr-bt4le/build/swig /root/scapy-radio/gnuradio/gr-bt4le/build/swig/CMakeFiles/_bt4le_swig.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/_bt4le_swig.dir/depend

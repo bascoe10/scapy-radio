@@ -93,7 +93,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>908e6</value>
+      <value>868.4e6</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -226,7 +226,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>250e3</value>
+      <value>800e3</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1352,7 +1352,7 @@
     </param>
     <param>
       <key>baseband_freq</key>
-      <value>0</value>
+      <value>freq</value>
     </param>
     <param>
       <key>alias</key>
@@ -1400,7 +1400,7 @@
     </param>
     <param>
       <key>peak_hold</key>
-      <value>False</value>
+      <value>True</value>
     </param>
     <param>
       <key>ref_level</key>

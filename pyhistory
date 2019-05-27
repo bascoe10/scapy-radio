@@ -1,0 +1,6 @@
+
+zpkt = ZWaveReq(homeid=1212, crc=None)
+gpkt = GnuradioPacket(proto=1)
+pkt = gpkt/zpkt
+switch_radio_protocol("zwave")
+map(lambda x: srradio(pkt), [1 for i in range(1,1000)])
