@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt-get update
 ifconfig eth1 192.168.10.1
 sudo apt-get install gnuradio-dev libboost-dev liblog4cpp5-dev doxygen swig cmake pkg-config -y
 #./install blocks
