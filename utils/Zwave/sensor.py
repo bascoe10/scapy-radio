@@ -22,4 +22,5 @@ def main():
             srradio(znop_pkt)
 
 if __name__ == '__main__':
+    load_module('gnuradio')
     main()
