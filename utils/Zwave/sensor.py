@@ -22,5 +22,4 @@ def run():
 
 if __name__ == '__main__':
     main.load_module('gnuradio')
-    load_module('gnuradio')
     run()
