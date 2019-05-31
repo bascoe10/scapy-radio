@@ -174,7 +174,9 @@ class ZWaveApplicationStatus(Packet):
 class ZWaveSwitchBin(Packet):
     name = "ZWaveSwitchBin"
     fields_desc = [
-        ByteEnumField("cmd", 0, {1: "SET", 2: "GET", 3: "REPORT"}),  
+        ByteEnumField("cmd", 0, {1: "SET", 2: "GET", 3: "REPORT"}),
+        ByteEnumField("switchcmd", 0, {1: "SWITCH"}), 
+        ByteEnumField("val", 0, {0x00: "ON", 0xFF: "OFF"}),
     ]
 
 class ZWaveSwitchMulti(Packet):

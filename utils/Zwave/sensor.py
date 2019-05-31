@@ -1,8 +1,8 @@
 import random
-from scapy.all import *
+from scapy import main
 
 
-def main():
+def run():
     switch_radio_protocol("zwave")
 
     hid = 13268531
@@ -22,5 +22,6 @@ def main():
             srradio(znop_pkt)
 
 if __name__ == '__main__':
+    main.load_module('gnuradio')
     load_module('gnuradio')
-    main()
+    run()
