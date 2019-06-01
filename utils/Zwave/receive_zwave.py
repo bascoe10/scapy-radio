@@ -39,6 +39,7 @@ class Stop_alarm(Automaton):
         print "ALARM"
         if ZWaveReq in packet_receive:
             self.last_pkt = packet_receive
+        raise self.WAITING()
             
 
     @ATMT.action(alarm_on)
