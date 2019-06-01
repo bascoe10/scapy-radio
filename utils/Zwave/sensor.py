@@ -17,10 +17,11 @@ def run():
     while True:
         if 5 == random.randint(1, 10):
             print "Sending cmd"
-            srradio1(zcmd_pkt)
+            srradio1(zcmd_pkt, timeout=1)
         else:
             print "Sending NOOP"
-            srradio1(znop_pkt)
+            srradio1(znop_pkt, timeout=1)
+        
 
 if __name__ == '__main__':
     main.load_module('gnuradio')
