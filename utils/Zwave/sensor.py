@@ -1,5 +1,6 @@
 import random
 from scapy import main
+import time
 
 
 def run():
@@ -21,6 +22,7 @@ def run():
         else:
             print "Sending NOOP"
             srradio1(znop_pkt, timeout=1)
+        time.sleep(1)
         
 
 if __name__ == '__main__':
