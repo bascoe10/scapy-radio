@@ -11,7 +11,7 @@ def run():
     zpkt = ZWaveReq(homeid=hid, crc=None)
     znop_pkt = zpkt/ZWaveNOP()
 
-    zcmd_pkt = gpkt/zpkt/ZWaveSwitchBin(cmd=1, switchcmd=1)
+    zcmd_pkt = zpkt/ZWaveSwitchBin(cmd=1, switchcmd=1)
 
 
     while True:
