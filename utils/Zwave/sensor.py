@@ -16,8 +16,10 @@ def run():
 
     while True:
         if 5 == random.randint(1, 10):
+            print "Sending cmd"
             srradio1(zcmd_pkt)
         else:
+            print "Sending NOOP"
             srradio1(znop_pkt)
 
 if __name__ == '__main__':
