@@ -45,15 +45,15 @@ class Stop_alarm(Automaton):
                         print "ALARM ON SEEN"
                         raise self.WAITING()
 
-    # @ATMT.action(alarm_on)
-    # def alarm_off(self):
-    #     time.sleep(0.5)
-    #     print "SWITCH ALARM OFF "
-    #     pkt = self.last_pkt.copy()
-    #     pkt[ZWaveSwitchBin].val = "OFF"
-    #     pkt.seqn += 1
-    #     pkt.crc = None
-    #     self.send(pkt)
+    @ATMT.action(alarm_on)
+    def alarm_off(self):
+        time.sleep(0.5)
+        print "SWITCH ALARM OFF "
+        pkt = self.last_pkt.copy()
+        pkt[ZWaveSwitchBin].val = "OFF"
+        pkt.seqn += 1
+        pkt.crc = None
+        self.send(pkt)
 
 
 if __name__ == "__main__":
