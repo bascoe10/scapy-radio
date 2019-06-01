@@ -35,6 +35,7 @@ class Stop_alarm(Automaton):
     @ATMT.receive_condition(WAITING)
     def alarm_on(self, packet_receive):
         """if receive turn on the alarm then go to TURN_OFF_ALARM"""
+        print "ALARM"
         human = lambda p, f: p.get_field(f).i2repr(p, getattr(p, f))
         if ZWaveReq in packet_receive:
             self.last_pkt = packet_receive
