@@ -7,18 +7,18 @@ def run():
 
     hid = 13268531
 
-    gpkt = GnuradioPacket(proto=1)
+    # gpkt = GnuradioPacket(proto=1)
     zpkt = ZWaveReq(homeid=hid, crc=None)
-    znop_pkt = gpkt/zpkt/ZWaveNOP()
+    znop_pkt = zpkt/ZWaveNOP()
 
     zcmd_pkt = gpkt/zpkt/ZWaveSwitchBin(cmd=1, switchcmd=1)
 
 
     while True:
         if 5 == random.randint(1, 10):
-            srradio(zcmd_pkt)
+            srradio1(zcmd_pkt)
         else:
-            srradio(znop_pkt)
+            srradio1(znop_pkt)
 
 if __name__ == '__main__':
     main.load_module('gnuradio')

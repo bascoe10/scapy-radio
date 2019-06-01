@@ -44,18 +44,19 @@ class Stop_alarm(Automaton):
         #                 print "ALARM ON"
         #             else:
         #                 print "ALARM OFF"
-
+        self.last_pkt = packet_receive
         packet_receive.show()
         raise self.WAITING()
 
-    # @ATMT.action(alarm_on)
-    # def alarm_off(self):
-    #     time.sleep(0.5)
-    #     pkt = self.last_pkt[ZWaveReq].copy()
-    #     pkt[ZWaveSwitchBin].val = "OFF"
-    #     pkt.seqn += 1
-    #     pkt.crc = None
-    #     self.send(pkt)
+    @ATMT.action(alarm_on)
+    def alarm_off(self):
+        time.sleep(0.5)
+        # pkt = self.last_pkt[ZWaveReq].copy()
+        # pkt[ZWaveSwitchBin].val = "OFF"
+        pkt = self.last_pkt
+        pkt.seqn += 1
+        pkt.crc = None
+        self.send(pkt)
 
 
 if __name__ == "__main__":
