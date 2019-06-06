@@ -1,3 +1,5 @@
+# Randomly send cmd Packet while sending NOOP packet otherwise
+
 import random
 from scapy import main
 import time
@@ -16,14 +18,18 @@ def run():
 
 
     while True:
-        # srradio1(zcmd_pkt, timeout=2)
+        print ("-"*40)
+        pkt = None
         if 5 == random.randint(1, 10):
-            print "Sending cmd"
-            srradio1(zcmd_pkt, timeout=1)
+            pkt = zcmd_pkt
+            print "Sending ALARM ON PACKET"
         else:
-            print "Sending NOOP"
-            srradio1(znop_pkt, timeout=1)
-        time.sleep(1)
+            pkt = znop_pkt
+            print "Sending NOOP PACKET"
+        
+        srradio1(pkt, timeout=1)
+        time.sleep(2)
+        print ("-"*40)
         
 
 if __name__ == '__main__':
