@@ -20,7 +20,7 @@ def run():
     while True:
         print ("-"*40)
         pkt = None
-        if 5 == random.randint(1, 10):
+        if 3 == random.randint(1, 5):
             pkt = zcmd_pkt
             print "Sending ALARM ON PACKET"
         else:
@@ -28,7 +28,7 @@ def run():
             print "Sending NOOP PACKET"
         
         srradio1(pkt, timeout=1)
-        time.sleep(2)
+        time.sleep(1)
         print ("-"*40)
         
 
